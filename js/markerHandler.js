@@ -24,7 +24,7 @@ AFRAME.registerComponent("markerhandler", {
     var iconUrl = "https://raw.githubusercontent.com/whitehatjr/menu-card-app/main/hunger.png";
 
     swal({
-      title: "Welcome to Hungry Burger!!",
+      title: "Welcome to Hungry Harry's Eatery!!",
       icon: iconUrl,
       content: {
         element: "input",
@@ -113,7 +113,7 @@ AFRAME.registerComponent("markerhandler", {
         swal({
           icon: "https://i.imgur.com/4NZ6uLY.jpg",
           title: "Thanks For Order !",
-          text: "Your order will serve soon on your table!",
+          text: "Your order will arrive at your table soon!!",
           timer: 2000,
           buttons: false
         });
